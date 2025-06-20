@@ -199,6 +199,11 @@ nav {
 
 }
 
+.about-image {
+    min-width: 400px;
+
+}
+
 .about-text h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
@@ -325,9 +330,6 @@ footer p {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
 
     .logo-image {
         width: 45px;
@@ -350,6 +352,10 @@ footer p {
     .cta-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .about-image {
+        display: none;
     }
 
     .about-content {
